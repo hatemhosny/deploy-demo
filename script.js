@@ -4,7 +4,7 @@ function App(props) {
     const [count, setCount] = useState(0);
     return (React.createElement("div", { className: "container" },
         React.createElement("h1", null,
-            "Hello, ",
+            "Hi, ",
             props.name,
             "!"),
         React.createElement("img", { className: "logo", src: "http://127.0.0.1:8080/livecodes/assets/templates/react.svg" }),
